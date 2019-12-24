@@ -79,12 +79,9 @@
 		AF68A59023B22B68009A7C43 /* SmartPaper */ = {
 			isa = PBXGroup;
 			children = (
-				AF68A59123B22B68009A7C43 /* AppDelegate.swift */,
-				AF68A59323B22B68009A7C43 /* SceneDelegate.swift */,
-				AF68A59523B22B68009A7C43 /* ContentView.swift */,
-				AF68A59723B22B69009A7C43 /* Assets.xcassets */,
-				AF68A59C23B22B69009A7C43 /* LaunchScreen.storyboard */,
-				AF68A59F23B22B69009A7C43 /* Info.plist */,
+				AF68A5B523B22BB4009A7C43 /* ViewController */,
+				AF68A5B423B22BAC009A7C43 /* Model */,
+				AF68A5B323B22B81009A7C43 /* Assets */,
 				AF68A59923B22B69009A7C43 /* Preview Content */,
 			);
 			path = SmartPaper;
@@ -105,6 +102,33 @@
 				AF68A5AA23B22B69009A7C43 /* Info.plist */,
 			);
 			path = SmartPaperTests;
+			sourceTree = "<group>";
+		};
+		AF68A5B323B22B81009A7C43 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AF68A59723B22B69009A7C43 /* Assets.xcassets */,
+				AF68A59C23B22B69009A7C43 /* LaunchScreen.storyboard */,
+				AF68A59F23B22B69009A7C43 /* Info.plist */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		AF68A5B423B22BAC009A7C43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF68A5B523B22BB4009A7C43 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AF68A59123B22B68009A7C43 /* AppDelegate.swift */,
+				AF68A59323B22B68009A7C43 /* SceneDelegate.swift */,
+				AF68A59523B22B68009A7C43 /* ContentView.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
