@@ -14,6 +14,7 @@
 		AF68A59B23B22B69009A7C43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF68A59A23B22B69009A7C43 /* Preview Assets.xcassets */; };
 		AF68A59E23B22B69009A7C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF68A59C23B22B69009A7C43 /* LaunchScreen.storyboard */; };
 		AF68A5A923B22B69009A7C43 /* SmartPaperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF68A5A823B22B69009A7C43 /* SmartPaperTests.swift */; };
+		AF68A5B723B22DC1009A7C43 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AF68A5B623B22DC1009A7C43 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		AF68A5A423B22B69009A7C43 /* SmartPaperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartPaperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF68A5A823B22B69009A7C43 /* SmartPaperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartPaperTests.swift; sourceTree = "<group>"; };
 		AF68A5AA23B22B69009A7C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF68A5B623B22DC1009A7C43 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		AF68A58523B22B68009A7C43 = {
 			isa = PBXGroup;
 			children = (
+				AF68A5B623B22DC1009A7C43 /* .gitignore */,
 				AF68A59023B22B68009A7C43 /* SmartPaper */,
 				AF68A5A723B22B69009A7C43 /* SmartPaperTests */,
 				AF68A58F23B22B68009A7C43 /* Products */,
@@ -212,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF68A5B723B22DC1009A7C43 /* .gitignore in Resources */,
 				AF68A59E23B22B69009A7C43 /* LaunchScreen.storyboard in Resources */,
 				AF68A59B23B22B69009A7C43 /* Preview Assets.xcassets in Resources */,
 				AF68A59823B22B69009A7C43 /* Assets.xcassets in Resources */,
