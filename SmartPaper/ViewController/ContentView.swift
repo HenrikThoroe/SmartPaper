@@ -9,8 +9,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject var appData: AppData
+    
     var body: some View {
-        Text("Hello, World!")
+        TabView {
+            ScannerView()
+                .environmentObject(appData)
+                .tabItem {
+                    Image(systemName: "viewfinder")
+                    Text("Scanner")
+                }
+            DocumentListView(documents: $appData.documents)
+                .environmentObject(appData)
+                .tabItem {
+                    Image(systemName: "doc.text")
+                    Text("Documents")
+                }
+            SnippetListView(snippets: $appData.snippets)
+                .tabItem {
+                    Image(systemName: "textformat.abc")
+                    Text("Snippets")
+                }
+        }
     }
 }
 
