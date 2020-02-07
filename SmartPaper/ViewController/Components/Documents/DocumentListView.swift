@@ -32,6 +32,9 @@ struct DocumentListView: View {
             .map { list in
                 DocumentGroup(content: list, name: list[0].taken.localizedDate(using: .full))
             }
+            .sorted {
+                $0[0].taken > $1[0].taken
+            }
     }
     
     var body: some View {
@@ -116,6 +119,10 @@ private struct DocumentGroup: Hashable, Identifiable {
     
     subscript(col: Int, row: Int) -> Document {
         item(column: col, row: row)
+    }
+    
+    subscript(index: Int) -> Document {
+        content[index]
     }
     
     static func == (lhs: DocumentGroup, rhs: DocumentGroup) -> Bool {
