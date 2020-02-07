@@ -191,11 +191,6 @@
 				AF68A59123B22B68009A7C43 /* AppDelegate.swift */,
 				AF68A59323B22B68009A7C43 /* SceneDelegate.swift */,
 				AF68A59523B22B68009A7C43 /* ContentView.swift */,
-				AF68A5BA23B23150009A7C43 /* SnippetListView.swift */,
-				AF68A5BC23B25484009A7C43 /* SnippetView.swift */,
-				AFA82B1923B261BF001B039D /* DocumentListView.swift */,
-				AFA82B1B23B3BAE6001B039D /* ScannerView.swift */,
-				AF270C4223B6795A00A2D314 /* DocumentDetailView.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -203,15 +198,10 @@
 		AFA82B1F23B3DDEC001B039D /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				AFA82B2023B3DE3C001B039D /* TitleView.swift */,
-				AFA82B2223B3DF40001B039D /* GalleryView.swift */,
-				AFA82B2D23B53DB0001B039D /* MultilineTextField.swift */,
-				AF270C3823B65B2400A2D314 /* GridView.swift */,
-				AF270C4B23B7E5B600A2D314 /* DocumentReader.swift */,
-				AF270C5123B900D500A2D314 /* ImageEditingView.swift */,
-				AF270C5323BA6F2B00A2D314 /* ShareSheet.swift */,
-				AF270C5523BB88F800A2D314 /* SnippetCreationView.swift */,
-				AF270C5B23BBF97100A2D314 /* ActivityIndicator.swift */,
+				AFB5928723EDAA1E00E0AF96 /* Snippets */,
+				AFB5928623EDAA1400E0AF96 /* Documents */,
+				AFB5928523EDAA0600E0AF96 /* Scanner */,
+				AFB5928423ECA67400E0AF96 /* Shared */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -231,6 +221,48 @@
 				AF270C5F23BF3CBE00A2D314 /* CGRect.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		AFB5928423ECA67400E0AF96 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AF270C4B23B7E5B600A2D314 /* DocumentReader.swift */,
+				AF270C5323BA6F2B00A2D314 /* ShareSheet.swift */,
+				AF270C5B23BBF97100A2D314 /* ActivityIndicator.swift */,
+				AFA82B2023B3DE3C001B039D /* TitleView.swift */,
+				AFA82B2223B3DF40001B039D /* GalleryView.swift */,
+				AFA82B2D23B53DB0001B039D /* MultilineTextField.swift */,
+				AF270C3823B65B2400A2D314 /* GridView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AFB5928523EDAA0600E0AF96 /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				AFA82B1B23B3BAE6001B039D /* ScannerView.swift */,
+			);
+			path = Scanner;
+			sourceTree = "<group>";
+		};
+		AFB5928623EDAA1400E0AF96 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				AFA82B1923B261BF001B039D /* DocumentListView.swift */,
+				AF270C4223B6795A00A2D314 /* DocumentDetailView.swift */,
+				AF270C5123B900D500A2D314 /* ImageEditingView.swift */,
+			);
+			path = Documents;
+			sourceTree = "<group>";
+		};
+		AFB5928723EDAA1E00E0AF96 /* Snippets */ = {
+			isa = PBXGroup;
+			children = (
+				AF68A5BA23B23150009A7C43 /* SnippetListView.swift */,
+				AF68A5BC23B25484009A7C43 /* SnippetView.swift */,
+				AF270C5523BB88F800A2D314 /* SnippetCreationView.swift */,
+			);
+			path = Snippets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

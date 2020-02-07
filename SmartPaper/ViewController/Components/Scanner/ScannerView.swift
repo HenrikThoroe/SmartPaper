@@ -47,6 +47,7 @@ struct ScannerView: View {
                     self.processingImages = true
                     self.showSheet = true
                     self.whichSheet = .snippetView
+                    self.scannerResult = (byLine: [], merged: [])
                     
                     for i in 0..<self.documents.count {
                         self.documents[i]
